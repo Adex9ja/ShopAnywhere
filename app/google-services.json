@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "693355335943",
+    "firebase_url": "https://shop-anywhere-4557b.firebaseio.com",
+    "project_id": "shop-anywhere-4557b",
+    "storage_bucket": "shop-anywhere-4557b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693355335943:android:e2738b50578b4c23",
+        "android_client_info": {
+          "package_name": "com.example.project.shopanywhere"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693355335943-746f6b9dpdflje3pp64jmvgmn269u0uv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.project.shopanywhere",
+            "certificate_hash": "034ac7f15a430c15e8fcf3ea99588f1b4aabef5b"
+          }
+        },
+        {
+          "client_id": "693355335943-p73hhpmt978lt868qjehc9v1g1hqdabl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMbFhQT-4Qh7jd2z-LlSU4o0DKajOqsHw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "693355335943-p73hhpmt978lt868qjehc9v1g1hqdabl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,74 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@drawable/backgroundimg</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="radiobtnstyle" parent="matchwrap">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textSize">20sp</item>
+
+    </style>
+
+    <style name="buttonstyle" parent="matchwrap">
+        <item name="android:background">@drawable/button</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="Widget.CardContent" parent="android:Widget">
+        <item name="android:padding">@dimen/medium_margin</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:drawable/screen_background_light_transparent</item>
+    </style>
+
+    <style name="matchwrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="textbox" parent="matchwrap">
+        <item name="android:background">@android:drawable/editbox_background</item>
+        <item name="android:padding">@dimen/medium_margin</item>
+        <item name="android:layout_marginBottom">@dimen/small_margin</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="textview" parent="matchwrap">
+        <item name="android:layout_marginBottom">@dimen/small_margin</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body2</item>
+    </style>
+
+    <style name="textbox2" parent="matchwrap">
+        <item name="android:background">@android:drawable/editbox_background</item>
+        <item name="android:padding">@dimen/medium_margin</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:editable">false</item>
+    </style>
+
+    <style name="textview2" parent="matchwrap">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body2</item>
+        <item name="android:background">@drawable/whitestyle</item>
+        <item name="android:layout_marginLeft">@dimen/three_dp</item>
+        <item name="android:layout_marginRight">@dimen/three_dp</item>
+        <item name="android:padding">@dimen/medium_margin</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+</resources>

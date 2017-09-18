@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:style="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:padding="@dimen/small_margin"
+    android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            style="@style/matchwrap"    >
+            <TextView
+                android:id="@+id/storename"
+                style="@style/textview"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                tools:text="Store Name" />
+            <TextView
+                android:id="@+id/description"
+                android:layout_weight="1"
+                style="@style/textview"
+                android:gravity="center_horizontal"
+                android:layout_gravity="start"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                tools:text="Description" />
+
+            <TextView
+                android:id="@+id/storelocation"
+                android:layout_weight="1"
+                style="@style/textview"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                tools:text="Location" />
+            <TextView
+                android:id="@+id/phoneno"
+                android:layout_weight="1"
+                style="@style/textview"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                tools:text="Phone Number" />
+
+        </LinearLayout>
+
+</LinearLayout>

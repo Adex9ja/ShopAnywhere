@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/medium_margin"
+    >
+    <LinearLayout
+        style="@style/matchwrap"
+        android:orientation="vertical">
+        <LinearLayout
+            android:orientation="vertical"
+            style="@style/matchwrap">
+            <LinearLayout
+                style="@style/matchwrap"
+                android:layout_height="200dp">
+                <ImageView
+                    android:src="@drawable/loginicon"
+                    style="@style/matchwrap"
+                    android:scaleType="centerInside" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                style="@style/matchwrap"
+                android:id="@+id/linearLayout1">
+                <TextView
+                    style="@style/matchwrap"
+                    android:text="Username"
+                    android:padding="@dimen/small_margin"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+                <EditText
+                    android:id="@+id/tuser"
+                    android:paddingLeft="@dimen/fab_margin"
+                    android:drawableStart="@android:drawable/radiobutton_off_background"
+                    android:drawableLeft="@android:drawable/radiobutton_off_background"
+                    style="@style/textbox" />
+                <TextView
+                    style="@style/matchwrap"
+                    android:text="Password"
+                    android:padding="@dimen/small_margin"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+                <EditText
+                    android:id="@+id/tpass"
+                    style="@style/textbox"
+                    android:paddingLeft="@dimen/fab_margin"
+                    android:drawableStart="@android:drawable/ic_lock_idle_lock"
+                    android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+                    android:inputType="textPassword" />
+            </LinearLayout>
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnlogin"
+            android:text="Continue"
+            android:layout_marginBottom="@dimen/medium_margin"
+            android:layout_marginTop="@dimen/medium_margin"
+            style="@style/buttonstyle" />
+
+    </LinearLayout>
+</ScrollView>

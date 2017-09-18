@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/medium_margin"
+    >
+    <LinearLayout
+        style="@style/matchwrap"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/total"
+            style="@style/matchwrap"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Surname"
+            android:padding="@dimen/small_margin"
+            android:gravity="right"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <LinearLayout
+            android:orientation="vertical"
+            style="@style/matchwrap">
+
+            <LinearLayout
+                android:orientation="vertical"
+                style="@style/matchwrap"
+                android:id="@+id/linearLayout1">
+                <TextView
+                    style="@style/textview2"
+                    android:text="Surname"
+                    android:padding="@dimen/small_margin"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+                <EditText
+                    android:id="@+id/tsurname"
+                    android:paddingLeft="@dimen/fab_margin"
+                    style="@style/textbox" />
+                <TextView
+                    style="@style/textview2"
+                    android:text="Other Names"
+                    android:padding="@dimen/small_margin"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+                <EditText
+                    android:id="@+id/tothernames"
+                    style="@style/textbox"
+                    android:paddingLeft="@dimen/fab_margin"
+                   android:inputType="text" />
+                <TextView
+                    style="@style/textview2"
+                    android:text="Occupation"
+                    android:padding="@dimen/small_margin"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+                <EditText
+                    android:id="@+id/toccup"
+                    style="@style/textbox"
+                    android:paddingLeft="@dimen/fab_margin"
+                   android:inputType="text" />
+                <TextView
+                    style="@style/textview2"
+                    android:text="Address"
+                    android:padding="@dimen/small_margin"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+                <EditText
+                    android:id="@+id/taddress"
+                    style="@style/textbox"
+                    android:paddingLeft="@dimen/fab_margin"
+                    android:inputType="text" />
+                <TextView
+                    style="@style/textview2"
+                    android:text="Phone Number"
+                    android:padding="@dimen/small_margin"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+                <EditText
+                    android:id="@+id/tphone"
+                    style="@style/textbox"
+                    android:paddingLeft="@dimen/fab_margin"
+                    android:inputType="phone" />
+            </LinearLayout>
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnContinue"
+            android:text="Continue"
+            android:layout_marginBottom="@dimen/medium_margin"
+            android:layout_marginTop="@dimen/medium_margin"
+            style="@style/buttonstyle" />
+
+    </LinearLayout>
+</ScrollView>

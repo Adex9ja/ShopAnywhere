@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        style="@style/Widget.CardContent"
+        android:orientation="vertical">
+        <LinearLayout
+            style="@style/matchwrap"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/textview"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:text="Store Name" />
+
+            <Spinner
+                android:id="@+id/storename"
+                style="@style/textview"
+                android:layout_width="0dp"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dialog"
+                android:layout_weight="4" />
+        </LinearLayout>
+        <LinearLayout
+            style="@style/matchwrap"
+            android:orientation="horizontal">
+            <TextView
+                style="@style/textview"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:text="Item Name" />
+            <EditText
+                android:id="@+id/itemname"
+                style="@style/textbox"
+                android:layout_width="0dp"
+                android:layout_weight="4" />
+        </LinearLayout>
+        <LinearLayout
+            style="@style/matchwrap"
+            android:orientation="horizontal">
+            <TextView
+                style="@style/textview"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:text="Item Price" />
+
+            <EditText
+                android:id="@+id/itemprice"
+                style="@style/textbox"
+                android:inputType="number"
+                android:layout_width="0dp"
+                android:layout_weight="4" />
+        </LinearLayout>
+        <LinearLayout
+            style="@style/matchwrap"
+            android:orientation="horizontal">
+            <TextView
+                style="@style/textview"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:text="Item Color" />
+            <EditText
+                android:id="@+id/itemcolor"
+                style="@style/textbox"
+                android:layout_width="0dp"
+                android:layout_weight="4" />
+        </LinearLayout>
+        <LinearLayout
+            style="@style/matchwrap"
+            android:orientation="horizontal">
+            <TextView
+                style="@style/textview"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:text="Picture" />
+            <LinearLayout
+                android:orientation="horizontal"
+                style="@style/matchwrap"
+                android:layout_width="0dp"
+                android:layout_weight="4">
+                <ImageButton
+                    android:id="@+id/choosepucture"
+                    style="@style/matchwrap"
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/ic_menu_camera"
+                    />
+                <EditText
+                    android:id="@+id/picturename"
+                    style="@style/textbox"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:inputType="text" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnAddItem"
+            android:text="Add Item"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/medium_margin"
+            android:layout_marginTop="@dimen/medium_margin"
+            style="@style/buttonstyle" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

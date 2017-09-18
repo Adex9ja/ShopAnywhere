@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:style="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="@dimen/medium_margin"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@color/colorAccent"
+        android:orientation="horizontal"
+        style="@style/matchwrap"    >
+        <TextView
+            style="@style/textview"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="@dimen/small_margin"
+            android:text="Item Name" />
+        <TextView
+            android:layout_weight="1"
+            style="@style/textview"
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="@dimen/small_margin"
+            android:text="Price" />
+        <TextView
+            style="@style/textview"
+            android:layout_weight="1"
+            android:text="Color"
+            android:layout_width="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_height="match_parent"
+            android:padding="@dimen/small_margin" />
+        <TextView
+            style="@style/textview"
+            android:text="Store Name"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_height="match_parent"
+            android:padding="@dimen/small_margin" />
+        <TextView
+            style="@style/textview"
+            android:text="Store Location"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:layout_height="match_parent"
+            android:padding="@dimen/small_margin" />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list_item"
+        android:layout_height="match_parent"
+        style="@style/matchwrap"
+        />
+</LinearLayout>
